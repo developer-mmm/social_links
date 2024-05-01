@@ -1,0 +1,176 @@
+/* inter-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/inter-v13-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-600 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'inter600';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./fonts/inter-v13-latin-600.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-700 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'inter700';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/inter-v13-latin-700.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+.wrapper {
+  width: 384px;
+  height: 611px;
+  margin: 40px auto;
+  background-color: #1F1F1F;
+  border-radius: 12px;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 327px) {
+  .wrapper {
+    width: 327px;
+    height: 529px;
+    margin: 24px auto;
+    background-color: #1F1F1F;
+    border-radius: 12px;
+    padding-bottom: 64px;
+  }
+}
+
+.image {
+  width: 88px;
+  height: 88px;
+  padding-top: 40px;
+  padding-left: 148px;
+}
+
+@media screen and (max-width: 327px) {
+  .image {
+    width: 88px;
+    height: 88px;
+    padding-top: 24px;
+    padding-left: 119.5px;
+  }
+}
+
+.name {
+  font-family: 'inter600';
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 327px) {
+  .name {
+    font-family: 'inter600';
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    margin-top: 24px;
+  }
+}
+
+.address {
+  font-family: 'inter700';
+  font-size: 14px;
+  text-align: center;
+  color: #C4F82A;
+  align-items: center;
+  justify-items: center;
+  margin-top: 16px;
+}
+
+@media screen and (max-width: 327px) {
+  .name {
+    font-family: 'inter700';
+    font-size: 14px;
+    text-align: center;
+    color: #C4F82A;
+    align-items: center;
+    justify-items: center;
+    margin-top: 16px;
+  }
+}
+
+.jobs {
+  font-family: 'inter';
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 24px;
+  color: white;
+}
+
+@media screen and (max-width: 327px) {
+  .jobs {
+    font-family: 'inter600';
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    margin-top: 24px;
+  }
+}
+
+.buttons {
+  text-align: center;
+}
+
+@media screen and (max-width: 327px) {
+  .buttons {
+    text-align: center;
+  }
+}
+
+.buttons button {
+  width: 304px;
+  height: 45px;
+  font-family: 'inter700';
+  margin-top: 24px;
+  border-radius: 8px;
+  color: white;
+  background-color: #333333;
+  border: none;
+}
+
+@media screen and (max-width: 327px) {
+  .buttons button {
+    width: 279px;
+    height: 45px;
+    font-family: 'inter700';
+    margin-top: 24px;
+    border-radius: 8px;
+    color: white;
+    background-color: #333333;
+    border: none;
+  }
+}
+
+.buttons button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: #C4F82A;
+}
+
+
+@media screen and (max-width: 327px) {
+  .buttons button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #C4F82A;
+  }
+}
